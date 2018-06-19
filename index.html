@@ -1,0 +1,100 @@
+--- 
+layout: default 
+---
+
+<div class="band brand">
+    <header class="container main">
+        <div class="sixteen columns">
+            <img class="u-max-full-width logo" src="{{ site.github.url }}/assets/img/logo.svg">
+        </div>
+    </header>
+</div>
+<div class="band navigation">
+    <nav class="container primary">
+        <div class="sixteen columns">
+            <ul>
+                <li><a href="#about">home</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#contact">contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<header class="header-main" style="background-image: url('{{ site.github.url }}/assets/img/Great-Zimbabwe.jpg">
+    <div class="overlay-light"></div>
+    <div class="home-title">
+        <h1>Hiram Construction</h1>
+        <h3>Building Zimbabwe one brick at a time</h3>
+    </div>
+</header>
+
+<div class="content">
+    <div class="container">
+        <div class="spot" id="about">
+            <h3 class="heading">About Us</h3>
+            <p>Hiram Construction is a wholly owned Zimbabwean construction company based in harare, we specialise in residential and commercial biulding construction, building maintenance and electrical works. our commitment is to our customers to give
+                them the best value for thier money and help them realise thier vision. our dedicated team of experts is ready to plan, advise, and assist you through-out the entire construction project plan.</p>
+        </div>
+    </div>
+
+
+    <div class="container"><img class="u-full-width" src="{{ site.github.url }}/assets/img/Building-Maintenance.jpg"></div>
+
+    <div class="container">
+        <h3 class="heading" id="services">Services</h3>
+        <div class="blog-posts row">
+            <div class="post columns four post-1">
+                <h6>Aluminium fabrication</h6><img class="u-full-width post-stuff" src="{{ site.github.url }}/assets/img/posts/aluminium-frame.jpg">
+                <p>We specialize in aluminium sliding and hinged doors, windows, shopfronts, shower cubicles, skylights, suspended ceilings, security doors, and blinds.</p>
+            </div>
+            <div class="post columns four post-2">
+                <h6>Construction</h6><img class="u-full-width post-stuff" src="{{ site.github.url }}/assets/img/posts/construction-works.jpg"> 
+                <p>for all your construction, concrete, roofing, plumbing, dry-wall partitioning, capentry, paving, tiling, shades, waterproofing, flooring, awnings, furnishings, glazing and painting.</p>
+            </div>
+            <div class="post columns four post-3">
+                <h6>Electrical Works</h6><img class="u-full-width post-stuff" src="{{ site.github.url }}/assets/img/posts/electrical-works.jpg">
+                <p>electrical repiars, flood lighting, external and security lighting, power installation, LV and HV transmission and distribution.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<footer>
+    <div class="container">
+        <div class="row footer-stuff" id="contact">
+            <div class="columns three"><strong>FIND US ON</strong>
+                <ul>
+                    <li><a href="{{ site.twitter_path }}">Twitter</a></li>
+                    <li><a href="{{ site.facebook_path }}">Facebook</a></li>
+                    <li><a href="{{ site.linkedin_path }}">Linkedin</a></li>
+                    <li><a href="{{ site.instagram_path }}">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="columns five"><strong>CONTACT US</strong>
+                <ul>
+                    <li><a class="contacts">{{ site.phone }}</a></li>
+                    <li><a class="contacts">{{ site.phone }}</a></li>
+                    <li><a class="contacts">{{ site.email }}</a></li>
+                </ul>
+            </div>
+            <div class="columns four">
+                <form action="https://formspree.io/{{ site.email }}" method="POST">
+                    
+                    <label><span>Name</span></label>
+                    <input class="u-full-width" type="text" name="name" placeholder="enter name">
+                    <label><span>Email</span></label>
+                    <input class="u-full-width" type="email" name="_replyto" placeholder="enter email">
+                    <label><span>Message</span></label>
+                    <input class="u-full-width" type="text" name="message" placeholder="message">
+                
+                    
+                    <input class="button" type="submit" value="Send">
+                
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
